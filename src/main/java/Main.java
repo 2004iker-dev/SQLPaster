@@ -4,9 +4,11 @@ import org.jnativehook.NativeHookException;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 
-public class prueba {
+public class Main {
 
     public static void main(String[] args) throws AWTException {
+
+        //pasar a este formato con chatgpt
         String[] original = {
                 "AF577	BILBAO	PARIS	10:10:00	72S",
                 "BA467	MADRID	LONDRES	20:40:00	73S",
