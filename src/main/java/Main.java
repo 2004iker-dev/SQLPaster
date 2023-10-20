@@ -62,9 +62,7 @@ public class Main {
 
         robot.delay(50);
 
-        for (int i = 0; i < tabla.length; i++) {
-            String part = tabla[i];
-
+        for (String part : tabla) {
             for (int l = 0; l < part.length(); l++) {
                 char letra = part.charAt(l);
                 int c = KeyEvent.getExtendedKeyCodeForChar(letra);
@@ -97,7 +95,5 @@ public class Main {
             robot.keyPress(KeyEvent.VK_TAB);
             robot.keyRelease(KeyEvent.VK_TAB);
         }
-
-
     }
 }
