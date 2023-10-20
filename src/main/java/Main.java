@@ -74,8 +74,6 @@ public class Main {
                         robot.keyRelease(KeyEvent.VK_CONTROL);
                         robot.keyRelease(KeyEvent.VK_V);
 
-                        //hay que tener el : en el portapapeles
-
                     } else {
                         if (Character.isUpperCase(c)) {
                             robot.keyPress(KeyEvent.VK_SHIFT);
