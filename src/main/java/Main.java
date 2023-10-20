@@ -2,11 +2,18 @@ import org.jnativehook.GlobalScreen;
 import org.jnativehook.NativeHookException;
 
 import java.awt.*;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
 public class Main {
 
     public static void main(String[] args) throws AWTException {
+
+        Clipboard cp = Toolkit.getDefaultToolkit().getSystemClipboard();
+        StringSelection selection = new StringSelection(":");
+
+        cp.setContents(selection, null);
 
         //pasar a este formato con chatgpt
         String[] original = {
