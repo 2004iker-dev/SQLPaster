@@ -16,7 +16,7 @@ public class Main {
         cp.setContents(selection, null);
 
         //pasar a este formato con chatgpt
-        String[] original = {
+        /*String[] original = {
                 "AF577	BILBAO	PARIS	10:10:00	72S",
                 "BA467	MADRID	LONDRES	20:40:00	73S",
                 "IB023	MADRID	TENERIFE	21:20:00	320",
@@ -44,7 +44,34 @@ public class Main {
                 tabla[index] = part;
                 index++;
             }
-        }
+        }*/
+        String[] tabla = {
+                "320",
+                "187",
+                "42,15",
+                "32,6",
+                "853",
+                "72S",
+                "160",
+                "36,2",
+                "25,2",
+                "820",
+                "737",
+                "172",
+                "38,9",
+                "29",
+                "793",
+                "73S",
+                "185",
+                "44,1",
+                "30,35",
+                "815",
+                "DS9",
+                "110",
+                "38,3",
+                "28,5",
+                "815"
+        };
 
         try {
             GlobalScreen.registerNativeHook();
